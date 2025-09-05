@@ -2,7 +2,7 @@
 import { Property, Booking, Review } from '@/types/api';
 
 const getPropertyImage = (imageId: number) =>{
-   const imageNumber = (imageId % 12) + 1; // Ensure imageNumber is between 1 and 12
+   const imageNumber = (imageId % 12) + 1; 
     return `/assets/images/image-${imageNumber}.png`;
 }
 
